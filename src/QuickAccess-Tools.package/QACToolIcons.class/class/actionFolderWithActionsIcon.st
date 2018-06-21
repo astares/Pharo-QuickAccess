@@ -4,4 +4,4 @@ actionFolderWithActionsIcon
 	
 	^ self iconCache 
 			at: #actionFolderWithActionsIcon
-			ifAbsentPut: [ Form fromBinaryStream: self actionFolderWithActionsIconContents base64Decoded readStream ].
+			ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self actionFolderWithActionsIconContents readStream) ].

@@ -3,4 +3,4 @@ importIcon
 	"Private - Generated method"
 	^ self iconCache 
 			at: #importIcon
-			ifAbsentPut: [ Form fromBinaryStream: self importIconContents base64Decoded readStream ].
+			ifAbsentPut: [ Form fromBinaryStream: (Base64MimeConverter mimeDecodeToBytes: self importIconContents readStream) ].
