@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TorstenBergmann 9/14/2017 01:48",
+	"super" : "TestCase",
+	"category" : "QuickAccess-Tests-Core-Base",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QACActionFolderTest",
+	"type" : "normal"
+}

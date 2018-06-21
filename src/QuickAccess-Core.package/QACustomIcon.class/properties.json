@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "TorstenBergmann 10/31/2015 00:51",
+	"super" : "Object",
+	"category" : "QuickAccess-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"contents",
+		"cachedIcon"
+	],
+	"name" : "QACustomIcon",
+	"type" : "normal"
+}

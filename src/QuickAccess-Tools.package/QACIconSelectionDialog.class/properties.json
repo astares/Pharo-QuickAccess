@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "TorstenBergmann 10/31/2015 00:08",
+	"super" : "ComposableModel",
+	"category" : "QuickAccess-Tools-UI-Dialogs",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"iconList",
+		"iconLibrary",
+		"addIconButton",
+		"iconReceiver",
+		"updateOnAccept"
+	],
+	"name" : "QACIconSelectionDialog",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+*QuickAccess-Tools
+iconProvider
+
+	^QACToolIcons 

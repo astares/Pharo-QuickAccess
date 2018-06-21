@@ -1,0 +1,14 @@
+private - icons content
+actionFolderWithActionsIconContents
+
+	^'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACDElEQVR42mNkIAKwC0gxySlp
+aOgbGAZramjoXbt2/dLFi+fWPr5/6wYjTJGVpUJ2WKBV+P+/X5n//fnG+Pbt69+90y92/vz5
+f7uqkZNmTVnBdD8vF5vf/5mZmP7/+bdu0/YjHb2TM8EGmJmqJBzYVjKXk5GBieE3UOAXA8N/
+IF6+Ze+nuJI18QGxhXpzJrXU//rHzLRg9z2GYFs5Bh7Wv/+SsssbGCUlxZyPHe7f/v/3B9b/
+v/8w/Pvzh4HpH9DZrKwMjP/+M2w9cOHTzXdKb2vKyxW//vzLUDH3HEOAlRyDlZYIQ2Vt80FG
+Pz/nmo1rQ5sZ/gJtBmqE00jsVbveMDh45jH8+MvCsOP0EwZXY2mGf7++MSQlx5xg9PV1rNm0
+JrwZm0YY+/b9jwwXn0gwmFn7MrCwczJ8+fyZ4ejetQwTJnUuZfT1cajZtDqiGZftIPzv93+G
+u48+Mpy89o3h008uBh6mrwwW6jwM0aV9Uxh9vO1qNq+OArqAkQGfIdjYplE1kxm9vWxqtqyK
+AbqAkQFfOGBjm0RXAQ3wtKrZsjKuGUMRQUMYgQZUTmb08rSo2boiAXsg4jWEkcE4tmIyo6eH
+ec225YnNpNkOYgMNiCubzOjhblqzfVkKGV5gYDCKK5nMyMvLZaajLRfN8P8f4////xiQMcP/
+vwz/wDSqOAzfvvdlKzwzkQsoNgAAN3g+0FoQDRoAAAAASUVORK5CYII='

@@ -1,0 +1,4 @@
+testing
+hasCustomIcon
+
+	^customIcon notNil 

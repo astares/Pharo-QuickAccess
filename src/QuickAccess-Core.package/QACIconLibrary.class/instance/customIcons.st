@@ -1,0 +1,4 @@
+operating
+customIcons
+
+	^customIcons values
