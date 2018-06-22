@@ -2,6 +2,7 @@ world menu
 menuCommandOn: aBuilder 
 	<worldMenu> 
 	(aBuilder item: #'Quick Access')
+		parent: #'Tools';
 		help: 'Quick Access';
 		order: 3.0; 
 		icon: QACToolIcons actionManagerIcon. 
