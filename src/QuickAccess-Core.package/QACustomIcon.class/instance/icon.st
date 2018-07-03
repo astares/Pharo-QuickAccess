@@ -1,4 +1,0 @@
-accessing
-icon
-
-	^self cachedIcon

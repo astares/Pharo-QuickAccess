@@ -1,4 +1,0 @@
-accessing
-iconLibrary
-
-	^iconLibrary 

@@ -1,4 +1,0 @@
-operating
-customIcons
-
-	^customIcons values

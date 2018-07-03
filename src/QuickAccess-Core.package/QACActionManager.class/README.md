@@ -1,1 +1,0 @@
-Manages image side quick actions

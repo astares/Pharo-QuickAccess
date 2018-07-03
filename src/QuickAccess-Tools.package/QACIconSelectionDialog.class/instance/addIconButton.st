@@ -1,3 +1,0 @@
-private - accessing
-addIconButton
-	^addIconButton

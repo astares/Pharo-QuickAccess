@@ -1,1 +1,0 @@
-A dialog to select icons

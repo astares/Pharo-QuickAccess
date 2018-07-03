@@ -1,4 +1,0 @@
-testing
-isFolder
-
-	^false

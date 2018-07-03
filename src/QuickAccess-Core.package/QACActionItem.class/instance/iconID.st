@@ -1,4 +1,0 @@
-accessing
-iconID
-
-	^iconID
