@@ -3,4 +3,5 @@ import: filename
 	self become: (STON fromString: filename readStream contents).
 	self rootFolder actionItemsAndSubActionItems
 		do:
-			[ :each | each customIcon: (self iconLibrary iconWithID: each iconID) ]
+			[ :each | each customIcon: (self iconLibrary iconWithID: each iconID) ].
+	Smalltalk at: #MenubarMorph ifPresent: #reset
