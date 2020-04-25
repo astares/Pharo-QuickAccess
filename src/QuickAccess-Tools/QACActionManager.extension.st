@@ -49,19 +49,16 @@ QACActionManager >> import: filename [
 QACActionManager >> onExport [
 	| filename |	
    filename := UITheme builder 
-                            fileSave: 'Export as .qac file' 
-                            extensions: #('qac').
+		chooseForSaveFileReference: 'Export as .qac file' extensions: #('qac') path: ''.
    filename isNil ifTrue:[ ^self ].
-	filename writeStream nextPutAll:
-	(STON toStringPretty: self)  
+	filename writeStreamDo: [ :stream | stream nextPutAll: (STON toStringPretty: self) ] 
 ]
 
 { #category : #'*QuickAccess-Tools-actions' }
 QACActionManager >> onImport [
 	| filename |
-	filename := UITheme builder
-		fileOpen: 'Choose a .qac file'
-		extensions: #('qac').
+	filename := 
+	UIManager default chooseExistingFileReference: nil extensions: #('qac') path: '' preview: nil.
 	filename isNil
 		ifTrue: [ ^ self ].
 	(Smalltalk ui theme confirm: 'Really replace')
