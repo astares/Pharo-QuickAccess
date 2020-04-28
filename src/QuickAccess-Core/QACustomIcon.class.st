@@ -9,7 +9,7 @@ Class {
 		'contents',
 		'cachedIcon'
 	],
-	#category : 'QuickAccess-Core-Utilities'
+	#category : #'QuickAccess-Core-Utilities'
 }
 
 { #category : #'instance creation' }
@@ -23,8 +23,7 @@ QACustomIcon class >> contents: aString [
 { #category : #accessing }
 QACustomIcon >> cachedIcon [
 
-	cachedIcon isNil ifTrue: [ cachedIcon := Form fromBinaryStream: 
-										(Base64MimeConverter mimeDecodeToBytes: self contents readStream) ].
+	cachedIcon isNil ifTrue: [ cachedIcon := Form fromBinaryStream: self contents base64Decoded readStream ].
 	^cachedIcon 						
 						
 ]
