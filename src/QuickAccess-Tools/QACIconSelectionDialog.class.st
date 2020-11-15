@@ -11,7 +11,7 @@ Class {
 		'iconReceiver',
 		'updateOnAccept'
 	],
-	#category : 'QuickAccess-Tools-UI-Dialogs'
+	#category : #'QuickAccess-Tools-UI-Dialogs'
 }
 
 { #category : #specs }
@@ -45,9 +45,11 @@ QACIconSelectionDialog class >> openDialogOn: iconLibrary iconReceiver: iconRece
 { #category : #actions }
 QACIconSelectionDialog >> addIcon [
 	| icon file |	
-	file := UITheme builder 
-                            fileOpen: 'Choose a 16x16 image file' 
-                            extensions: #('png' 'gif').
+	file := UIManager default 
+				chooseExistingFileReference: 'Choose a 16x16 image file'
+				extensions: #('png' 'gif')
+				path: ''.
+                          
 	file isNil ifTrue:[ ^self ].
  
 	icon := QACustomIcon contents: (self base64ContentsOfFileNamed: file name).
